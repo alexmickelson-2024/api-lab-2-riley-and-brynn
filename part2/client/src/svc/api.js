@@ -1,4 +1,4 @@
-const apiAddress = "http://localhost:5045";
+const apiAddress = "http://localhost:5062";
 
 export const sendMessageToApi = async (messageText, parentId) => {
   const parent = parentId ?? null;
